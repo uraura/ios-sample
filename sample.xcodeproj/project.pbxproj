@@ -14,6 +14,7 @@
 		2DA43CD421DE4EF100ED94DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA43CD221DE4EF100ED94DD /* LaunchScreen.storyboard */; };
 		2DA43CDF21DE4EF100ED94DD /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA43CDE21DE4EF100ED94DD /* sampleTests.swift */; };
 		2DA43CEA21DE4EF100ED94DD /* sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA43CE921DE4EF100ED94DD /* sampleUITests.swift */; };
+		2DA43CF821E2524500ED94DD /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA43CF721E2524500ED94DD /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2DA43CE521DE4EF100ED94DD /* sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA43CE921DE4EF100ED94DD /* sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITests.swift; sourceTree = "<group>"; };
 		2DA43CEB21DE4EF100ED94DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA43CF721E2524500ED94DD /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				2DA43CC921DE4EF000ED94DD /* AppDelegate.swift */,
 				2DA43CCB21DE4EF000ED94DD /* ViewController.swift */,
 				2DA43CCD21DE4EF000ED94DD /* Main.storyboard */,
+				2DA43CF721E2524500ED94DD /* SubViewController.swift */,
 				2DA43CD021DE4EF100ED94DD /* Assets.xcassets */,
 				2DA43CD221DE4EF100ED94DD /* LaunchScreen.storyboard */,
 				2DA43CD521DE4EF100ED94DD /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA43CF821E2524500ED94DD /* SubViewController.swift in Sources */,
 				2DA43CCC21DE4EF000ED94DD /* ViewController.swift in Sources */,
 				2DA43CCA21DE4EF000ED94DD /* AppDelegate.swift in Sources */,
 			);
