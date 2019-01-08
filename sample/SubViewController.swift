@@ -20,6 +20,7 @@ class SubViewController: UIViewController{
         label.text = String(r)
     }
 
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
